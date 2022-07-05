@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/9bc8e54730.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/style.css" />
     <title>MyDay Planner</title>
   </head>
@@ -25,16 +26,102 @@
   <body>
     <header class="jumbotron">
       <h1 class="display-3">MyDay Planner</h1>
-      <p class="lead">Current Date & Time</p>
+      <p class="lead">The Current Date & Time is:</p>
       <p id="now-moment"></p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Hour-blocks go here -->
+      <!-- 9am  -->
+      <div id="hour-09" class="row time-slot">
+        <div class="col-md-1 hour-block"><span id="09">9am</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 10am  -->
+        <div id="hour-10" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="10">10am</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 11am  -->
+        <div id="hour-11" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="11">11am</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 12pm  -->
+        <div id="hour-12" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="12">12pm</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 1pm  -->
+        <div id="hour-13" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="13">1pm</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 2pm  -->
+        <div id="hour-14" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="14">2pm</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 3pm  -->
+        <div id="hour-15" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="15">3pm</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 4pm  -->
+        <div id="hour-16" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="16">4pm</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <!-- 5pm  -->
+        <div id="hour-17" class="row time-slot">
+            <div class="col-md-1 hour-block"><span id="17">5pm</span></div>
+            <!-- will need to use textarea to allow user to enter free form text in this column -->
+            <textarea class="col-md-10 description"></textarea>
+            <button class="col-md-1 saveBtn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+
+
     </div>
+      
+  
+    
     
 
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/script.js"></script>

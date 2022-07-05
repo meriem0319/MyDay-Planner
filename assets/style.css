@@ -21,26 +21,36 @@ body {
     border-bottom: 10px solid black;
   }
   
-  .description {
+ .description {    
     white-space: pre-wrap;
-  }
+    text-align: center;
+  } 
   
-  .time-block {
+  /* changed just hour to hour-block for my own better understanding/targeting */
+  .hour-block {
     text-align: center;
     border-radius: 15px;
+    white-space: pre-wrap;
+    /* added font weight  */
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+             
   }
   
   .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
-  }
+  }  
   
-  .hour {
+  /* .hour {             added this to hour-block
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
-  }
+  } */
   
   .past {
     background-color: #d3d3d3;
