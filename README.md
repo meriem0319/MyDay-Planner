@@ -1,16 +1,16 @@
-# MyDay Planner (Using Third-Party APIs)
+# ⏰ MyDay Planner (Using Third-Party APIs)
 
-## My Task
+## 🏗️ My Task
 
 To create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. I need use the Moment.js library to work with date and time. 
 
-## User Story
+## ✍️ User Story
 
     AS AN employee with a busy schedule
     I WANT to add important events to a daily planner
     SO THAT I can manage my time effectively
 
-## Acceptance Criteria
+## 🚦 Acceptance Criteria
 
     GIVEN I am using a daily planner to create a schedule
     WHEN I open the planner
@@ -26,12 +26,12 @@ To create a simple calendar application that allows a user to save events for ea
     WHEN I refresh the page
     THEN the saved events persist
 
-## Screenshot
+## 📸 Screenshot
 
-* The following animation demonstrates the application functionality:
+<img src="./assets/images/MyDayPlanner.png"/>
 
 
-## Deployment
+## 💻 Deployment
  
 ### My live link:
 * https://meriem0319.github.io/MyDay-Planner/
@@ -39,5 +39,5 @@ To create a simple calendar application that allows a user to save events for ea
 ### My repo link:
 * https://github.com/meriem0319/MyDay-Planner
 
-## Author
+## 📜 Author
 Meriem Powell
